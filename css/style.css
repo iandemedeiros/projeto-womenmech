@@ -11,10 +11,17 @@
 }
 .header1{
     background-color: var(--corheader);
-    padding: 17px 26px 17px 30px;
 }
 .navbar{
     --bs-navbar-active-color: var(--corfooter);
+    font-size: 1.2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar-toggler{
+    --bs-navbar-toggler-border-color: rgb(0 0 0 / 15%);
 }
 .nav-link{
     color: var(--corfooter);
@@ -25,13 +32,31 @@
 .hero{
     background-color: black;
 }
-.footer1{
-    background-color: #00CBDF;
-    height: 20px;
-    margin-top: 10px;
-}
 #centralizando{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+h4 a:hover::before{
+    content: "🔗";
+}
+.lowsearch{
+    background-color: #020BA6;
+    color: white;
+    text-transform: uppercase;
+}
+.lowsearch:hover{
+    background-color: #aa9f9f;
+}
+.saibamais{
+    color: black;
+}
+.saibamais:hover{
+    color: #020BA6;
+}
+@media (max-width:990) {
+    .nav-linkr{
+        color: black;
+        background-color: black;
+    }
 }
