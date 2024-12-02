@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --corheader:#020BA6;
+    --cortext1:#0AF1F2;
+    --corfooter:#00CBDF;
+}
+.header1{
+    background-color: var(--corheader);
+    padding: 17px 26px 17px 30px;
+}
+.navbar{
+    --bs-navbar-active-color: var(--corfooter);
+}
+.nav-link{
+    color: var(--corfooter);
+}
+.home{
+    text-decoration: underline;
+}
+.hero{
+    background-color: black;
+}
+.footer1{
+    background-color: #00CBDF;
+    height: 20px;
+    margin-top: 10px;
+}
+#centralizando{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
