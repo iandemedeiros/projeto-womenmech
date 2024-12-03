@@ -15,10 +15,6 @@
 .navbar{
     --bs-navbar-active-color: var(--corfooter);
     font-size: 1.2em;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 .navbar-toggler{
     --bs-navbar-toggler-border-color: rgb(0 0 0 / 15%);
